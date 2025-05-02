@@ -1,0 +1,80 @@
+.plantProtection {
+  position: relative;
+}
+.plantProtection .box-plant {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 0px 20px rgba(96, 96, 96, 0.4039215686);
+  padding: 10px 15px;
+}
+.plantProtection h1 {
+  margin: 40px 0 24px 0;
+  color: #333;
+}
+.plantProtection img {
+  width: 100%;
+  height: 480px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 20px 0;
+  position: relative;
+  border-radius: 1rem;
+}
+.plantProtection ul {
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.plantProtection ul li {
+  padding: 0px 10px;
+  margin-bottom: 18px;
+  width: 50%;
+}
+.plantProtection ul li svg {
+  font-size: 18px;
+  width: 18px;
+  margin-left: 15px;
+  vertical-align: middle;
+  margin-top: 5px;
+  color: #006495;
+  float: right;
+}
+.plantProtection ul li div {
+  overflow: hidden;
+}
+.plantProtection ul li span {
+  font-size: 18px;
+  color: #222;
+}
+.plantProtection p {
+  text-align: justify;
+  -moz-text-align-last: right;
+       text-align-last: right;
+  line-height: 30px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .plantProtection .box-plant {
+    width: 100%;
+  }
+  .plantProtection h1 {
+    margin: 40px 0 10px 0;
+    color: #222;
+  }
+  .plantProtection ul {
+    padding: 10px 0px;
+  }
+  .plantProtection ul li {
+    padding: 0px 0px;
+    margin-bottom: 18px;
+    width: 100%;
+  }
+  .plantProtection img {
+    height: 250px;
+  }
+}/*# sourceMappingURL=plantProtection.css.map */

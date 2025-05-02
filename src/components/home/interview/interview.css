@@ -1,0 +1,42 @@
+.interview .continer .img {
+  width: 50%;
+}
+.interview .continer .img img {
+  width: 100%;
+  border-radius: 10px;
+}
+.interview .continer .details {
+  width: 50%;
+  padding: 15px 30px;
+}
+.interview .continer .details p {
+  margin: 20px 0;
+}
+.interview .continer .details ul {
+  margin-top: 40px;
+}
+.interview .continer .details li {
+  font-size: 18px;
+}
+.interview .continer .details li svg {
+  color: #006495;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .interview .continer {
+    flex-direction: column;
+  }
+  .interview .continer .img {
+    width: 100%;
+  }
+  .interview .continer .details {
+    width: 100%;
+    padding: 15px 0px;
+  }
+  .interview .continer .details li {
+    display: flex;
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=interview.css.map */

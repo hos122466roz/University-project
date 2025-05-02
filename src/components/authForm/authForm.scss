@@ -1,0 +1,125 @@
+.auth {
+  background-image: url("../../../public/image/hero/close-up-view-beautiful-southern-emerald-damselfly-lestes-barbarus-insect_69593-943.jpg");
+  background-size: cover;
+}
+
+.auth-form {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .text-regesteer h3 {
+    margin-top: 40px;
+    font-size: 14px;
+    a {
+      color: rgb(51, 106, 234);
+    }
+  }
+  .login-form {
+    background-color: #fff;
+    padding: 40px 60px 40px;
+
+    border-radius: 1.5rem;
+    text-align: center;
+    h1 {
+      color: #222;
+      margin-bottom: 50px;
+      font-size: 1.5em;
+    }
+  }
+  form {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    .inputBox {
+      position: relative;
+      width: 300px;
+      margin-bottom: 40px;
+      span {
+        margin-top: 7px;
+        font-size: 14px;
+        display: block;
+        color: red;
+       
+      }
+      input {
+        position: relative;
+        padding: 10px 0;
+        width: 100%;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #2222229a;
+        color: #222;
+        font-size: 1em;
+        background: transparent;
+        text-align: left;
+        caret-color: rgb(51, 106, 234);
+        &:focus,
+        &:valid {
+          border-bottom: 2px solid rgb(51, 106, 234);
+        }
+        &::placeholder {
+          color: #666666;
+          text-align: right;
+          font-size: 0.75em;
+        }
+      }
+      label {
+        right: 0;
+        color: #2e2e2e;
+        padding: 10px 0;
+      }
+    }
+    button {
+      background-color: rgb(51, 106, 234);
+      padding: 10px;
+      color: #fff;
+      transition: 1.5s;
+      border-radius: 10px;
+      &:hover {
+        letter-spacing: 1em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .auth-form {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .text-regesteer h3 {
+      margin-top: 40px;
+      font-size: 14px;
+      a {
+        color: rgb(51, 106, 234);
+      }
+    }
+    .login-form {
+      background-color: #fff;
+      padding: 40px 60px 40px;
+
+      border-radius: 1.5rem;
+      text-align: center;
+      h1 {
+        color: #222;
+        margin-bottom: 50px;
+        font-size: 1.5em;
+      }
+    }
+    form {
+      display: flex;
+      text-align: right;
+      flex-direction: column;
+      .inputBox {
+        position: relative;
+        //   width: 300px;
+        width: 100%;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

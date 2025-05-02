@@ -1,0 +1,35 @@
+.demo {
+  position: relative;
+
+  .right {
+    width: 513px;
+    height: 529px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+  }
+  .left {
+    width: 513px;
+    height: 529px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+  }
+  .heding{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+}
+@media screen and (max-width: 768px) {
+  .demo {
+    img {
+      display: none;
+    }
+    .cantiener {
+        margin-top: 0px;
+      }
+  }
+}
